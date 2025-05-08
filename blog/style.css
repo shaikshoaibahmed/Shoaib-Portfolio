@@ -1,0 +1,92 @@
+/*Font Awesome Free Icon*/
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    /*background-image: url(img/background.png);*/
+    background-color: rgb(12, 1, 1);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+
+}
+.content{
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #fff;
+}
+.content p{
+    margin-top: 2px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.content p i{
+    font-size: 30px;
+    font-weight: 400;
+    color: transparent;
+}
+
+.content h1{
+    margin-top: 5px;
+    font-size: 64px;
+    font-weight: 600;
+}
+.content h1 span{
+    color: red;
+}
+.content h2{
+    color: red;
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+
+.content .btn button{
+    background-color: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    font-size: 17px;
+    padding: 12px 25px;
+    color: #fff;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.content .btn button:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: #ec1839;
+    
+}
+.content .btn button i{
+    font-size: 20px;
+    font-weight: 700;
+}
+.content .goback a{
+    color: #fff;
+    display: flex;
+    margin-top:17px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 0;  
+    width: 11%;
+    padding: 2px 2px; 
+    cursor: pointer;
+    text-decoration: none;
+}
+.content .goback a:hover{
+    font-size: 18px;
+    color: rgb(216, 252, 12);
+}
